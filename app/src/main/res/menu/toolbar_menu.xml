@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/linear" android:title="线性布局"></item>
+    <item android:id="@+id/grid" android:title="网格布局"></item>
+    <item android:id="@+id/stragger" android:title="流体布局"></item>
+</menu>
