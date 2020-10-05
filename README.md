@@ -57,7 +57,7 @@ hjRecyclerView.setAdapter(RecyclerView.Adapter adapter);
 ```java  
 hjRecyclerView.setHjRefreshAndLoadMoreListener(new HJRecyclerView.HJRefreshAndLoadMoreListener() {
     @Override
-    public void onLoadMore() {
+    public void onLoadMore() {//上拉加载回调
       ...  
       myRecyclerViewAdapter.notifyDataSetChanged();
       hjRecyclerView.setLoadingComplete(true);
@@ -65,7 +65,7 @@ hjRecyclerView.setHjRefreshAndLoadMoreListener(new HJRecyclerView.HJRefreshAndLo
     }
 
     @Override
-    public void onRefresh() {
+    public void onRefresh() {//下拉刷新回调
       ...  
       myRecyclerViewAdapter.notifyDataSetChanged();
       hjRecyclerView.setLoadingComplete(true);
