@@ -52,6 +52,7 @@ private HJRecyclerView hjRecyclerView;
 hjRecyclerView=findViewById(R.id.recyclerView);  
 hjRecyclerView.setLinearLayout();
 hjRecyclerView.setAdapter(RecyclerView.Adapter adapter);  
+```
 * Step3.设置下拉刷新和上拉加载的监听  
 ```java  
 hjRecyclerView.setHjRefreshAndLoadMoreListener(new HJRecyclerView.HJRefreshAndLoadMoreListener() {
